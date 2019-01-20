@@ -1,4 +1,4 @@
-function myFunction() {
+/*function myFunction() {
 	demo.innerHTML ="Click me to change my text color"
     document.getElementById("demo").style.color = "red";
 }
@@ -33,3 +33,4 @@ function changeStyle(){
 
 
 }
+*/
