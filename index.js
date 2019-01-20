@@ -1,5 +1,9 @@
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 /*function myFunction() {
+=======
+function myFunction() {
+>>>>>>> Stashed changes
 	demo.innerHTML ="Click me to change my text color"
     document.getElementById("demo").style.color = "red";
 }
@@ -46,6 +50,7 @@ function changeStyle(){
 
 
 }
+<<<<<<< Updated upstream
 */
 =======
 // // When the user clicks on the button, scroll to the top of the document
@@ -54,3 +59,5 @@ function changeStyle(){
 //   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 // }
 >>>>>>> 32cc268345c66b8e5e85d38fcae69135034592cf
+=======
+>>>>>>> Stashed changes
