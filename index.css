@@ -359,7 +359,7 @@ nav a:hover::before{
   /*border: 0.5px solid;*/
   width: 100vw;
   height: 80vh;
-  background-color: #E4E5E6;
+  background: linear-gradient(to top, #ff9900 0%, #ffff66 100%);
 }
 
 .about-grid {
@@ -440,10 +440,11 @@ nav a:hover::before{
 
 /*Projects page content*/
 #wrapper-projects {
-  border: 0.2px solid #E4E5E6;
-  width: 100%;
+  border: 0.2px solid #ff9900;
+  border-bottom-color: #ffff66;
+  width: 100vw;
   height: 155vh;
-  background-color: #E4E5E6;
+  background: linear-gradient(to bottom, #ff9900 0%, #ffff66 100%);
 }
 
 .section-title {
@@ -498,7 +499,7 @@ nav a:hover::before{
   background-color: #EEEFF0;
   grid-template-columns: 2fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  box-shadow: 0 48px 76px rgba(0,0,0,0.30), 0 30px 24px rgba(0,0,0,0.22);
+ 
 }
 
 .project1-screenshot {
@@ -634,10 +635,15 @@ nav a:hover::before{
 
 /*Skills page content*/
 #wrapper-skills {
-  border: 0.5px solid #E4E5E6;
-  width: 100%;
+   border: 0.25px solid #ffff66;
+   border-bottom-color:#ff9900;
+   
+ /* width: 100%;
   height: 65vh;
-  background-color: #E4E5E6;
+  background: linear-gradient(to top, #ff9900 0%, #ffff66 100%);*/
+  width: 100vw;
+  height: 65vh;
+  background: linear-gradient(to top, #ff9900 0%, #ffff66 100%);
 }
 
 #heading-skills {
@@ -818,11 +824,11 @@ nav a:hover::before{
 
 /*Contact page content*/
 #wrapper-contact {
-  border: 0.05px solid rgba(228,229,230,1);
-  width: 100%;
-  height: 70vh;
+  border: 0.05px solid #ff9900;
+  width: 100vw;
+  height: 85vh;
   /*background-color: #016699;*/
-  background-image: linear-gradient(to bottom, rgba(228,229,230,1), rgba(01,102,153,1));
+  background: linear-gradient(to bottom, #ff9900 0%, #ff0000 100%)
 }
 
 .contact-form {
@@ -911,7 +917,7 @@ button  {
 /*Footer styling*/
 
 footer {
-  width: 100%;
+  width: 100vw;
   background-color: #004466;
   height: 18vh;
   border:0.5px solid #004466;
