@@ -918,9 +918,9 @@ button  {
 
 footer {
   width: 100vw;
-  background-color: #004466;
+  background-color: #ff9900;
   height: 18vh;
-  border:0.5px solid #004466;
+  border:0.5px solid ;
 }
 
 .contact-grid {
