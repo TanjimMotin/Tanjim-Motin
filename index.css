@@ -920,7 +920,7 @@ footer {
   width: 100vw;
   background-color: #ff9900;
   height: 18vh;
-  border:0.5px solid ;
+  border:0.5px solid #ff9900;
 }
 
 .contact-grid {
